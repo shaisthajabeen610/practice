@@ -63,8 +63,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "production": {
-              "browserTarget": "AppDiscovery1:build:production"
+            "options": {
+              "browserTarget": "AppDiscovery1:build:production",
+              "proxyConfig": "./proxy.config.json"
             },
             "development": {
               "browserTarget": "AppDiscovery1:build:development"
@@ -97,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4bc67b5a-259a-432c-8038-c67700de8d3e"
   }
 }

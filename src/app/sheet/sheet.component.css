@@ -1,0 +1,46 @@
+/* td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+  } */
+  *{
+    font-family: 'Arial';
+    font-size: 16px;
+}
+  td {
+    padding: 0 15px;
+    background-color: #fff;
+       /* background: rgba(185, 88, 75, 0.836); */
+        width: 150px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 5px;
+      
+        line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+    }
+    .headercolour{
+      background-color: aqua;
+      
+    }
+    .sizing{
+      width:100%;
+    }
+    .next-btn{
+      padding:10px 30px;
+      border:2px solid black;
+      border-radius: 5px;
+      margin-top: 15px;
+     
+
+    }
+    .next-btn-cntr{
+      display:flex;
+      justify-content:center;
+    }
+    .table{
+      border-collapse: collapse;
+      margin:0;
+      padding:0px;
+    }
+    .aligning-description{
+      padding-left: 40px;
+    }

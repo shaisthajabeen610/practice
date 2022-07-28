@@ -1,0 +1,11 @@
+
+{
+    "/api": {
+      "target": "https://prices.azure.com/api/",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
